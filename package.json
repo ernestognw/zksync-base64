@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "hardhat deploy-zksync",
+    "deploy": "hardhat compile && hardhat deploy-zksync",
     "verify": "hardhat verify"
   },
   "keywords": [],
@@ -22,6 +22,7 @@
     "zksync-web3": "^0.13.4"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1",
     "dotenv": "^16.0.3"
   }
 }
