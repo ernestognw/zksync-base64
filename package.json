@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "hardhat deploy-zksync",
+    "verify": "hardhat verify"
   },
   "keywords": [],
   "author": "",
